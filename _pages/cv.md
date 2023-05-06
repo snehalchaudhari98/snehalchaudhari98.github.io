@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+
+Skills
 ======
 * Programming Languages: Python, Java, JavaScript, C, C++, R, Dart, MongoDB, SQL.
 * Framework: React, Node.js, Angular, Django, Flutter, Android, Flask.
