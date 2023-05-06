@@ -18,5 +18,5 @@ main:
   - title: "Skills and Services"
     url: /cv/
     
-  - title: "Contact"
-    url: /markdown/
+  # - title: "Contact"
+  #   url: /markdown/
