@@ -1,13 +1,13 @@
 # main links links
 main:
   - title: "Education History"
-    url: /teaching/ 
+    url: /education/ 
 
   - title: "Work Experience"
-    url: /talks/    
+    url: /experience/    
 
   - title: "Projects"
-    url: /publications/
+    url: /project/
     
   # - title: "Services"
   #   url: /portfolio/
