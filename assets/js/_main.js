@@ -95,4 +95,18 @@ $(document).ready(function(){
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
+
+          document.addEventListener("mousemove", function (event) {
+            var x = event.clientX / window.innerWidth;
+            var y = event.clientY / window.innerHeight;
+            var bg =
+              "radial-gradient(circle at " +
+              x * 100 +
+              "% " +
+              y * 100 +
+              "%, #131414, #636363)";
+            document.body.style.background = bg;
+          });
+
+
 });
