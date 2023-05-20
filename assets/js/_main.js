@@ -96,17 +96,17 @@ $(document).ready(function(){
   });
 
 
-          document.addEventListener("mousemove", function (event) {
-            var x = event.clientX / window.innerWidth;
-            var y = event.clientY / window.innerHeight;
-            var bg =
-              "radial-gradient(circle at " +
-              x * 100 +
-              "% " +
-              y * 100 +
-              "%, #131414, #636363)";
-            document.body.style.background = bg;
-          });
+document.addEventListener("mousemove", function (event) {
+  var x = event.clientX / window.innerWidth;
+  var y = event.clientY / window.innerHeight;
+  var bg =
+    "radial-gradient(circle at " +
+    x * 100 +
+    "% " +
+    y * 100 +
+    "%, #131414, #636363)";
+  document.body.style.background = bg;
+});
 
 
 });
