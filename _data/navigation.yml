@@ -3,10 +3,10 @@ main:
   - title: "Education History"
     url: /teaching/ 
 
-  - title: "Work Experience"
+  - title: "Projects"
     url: /projects/    
 
-  - title: "Projects"
+  - title: "Work Experience"
     url: /experience/
     
   # - title: "Services"
