@@ -16,8 +16,10 @@ body {
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
-  background-color: #000000;
+  // background-color: #000000;
   color: #ffffff;
+  
+  background: linear-gradient(to bottom, #f06, #9f6);
   // background-color:#ffffff ;
   // color:#000000 ;
 
