@@ -9,13 +9,12 @@ redirect_from:
 
 ## 🌟 Attentding Grace Hopper Celebration 2023 in Orlando 🌟
 
-I'll be attending the Grace Hopper Celebration this month in Orlando! 🎉I am looking forward to the exciting possibilities that lie ahead and the chance to connect with incredible professionals during this time. I am really interested in engaging with the incredible lineup of sessions, workshops, and networking opportunities that await.`{: .notice}`
+I'll be attending the [Grace Hopper Celebration](https://ghc.anitab.org/ "AnitaB.org") in Orlando! 🎉I am looking forward to the exciting possibilities that lie ahead and the chance to connect with incredible professionals during this time. I am really interested in engaging with the incredible lineup of sessions, workshops, and networking opportunities that await.`{: .notice}`
 
-I'm currently on the lookout for full-time opportunities in the software engineering domain and one of my goals at the conference is to explore new opportunities in the industry, and I'm excited about the possibilities ahead. I am also looking forward to making new connections, sharing experiences, and discovering new career opportunities. If you're interested in connecting, discussing any opportunities, or simply sharing insights about the conference, please feel free to reach out to me at via LinkedIn or Email (sschaud5@asu.edu).
+I'm currently on the lookout for full-time opportunities in the software engineering domain and one of my goals at the conference is to explore new opportunities in the industry, and I'm excited about the possibilities ahead. I am also looking forward to making new connections, sharing experiences, and discovering new career opportunities. If you're interested in connecting, discussing any opportunities, or simply sharing insights about the conference, please feel free to reach out to me at via LinkedIn or Email (sschaud5@asu.edu)  [Email](mailto:sschaud5@asu.edu "Email").
 
 If you're attending the conference too, I would like to connect with you to exchange any insights and make the most out of this opportunity.
 “Let's connect, learn, and grow!”
-
 
 
 <!-- ## Locations of key files/directories
