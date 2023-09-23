@@ -3,7 +3,7 @@ title: "Bachelor of Engineering, Information Technology"
 collection: teaching
 type: "Pune Institute of Computer Technology"
 # permalink: /teaching/2015-spring-teaching-1
-venue: "August 2016 - May 2020"
+venue: "August 2016 - May 2020 , GPA 9.58/10"
 date: 2020-05-01
 location: "Pune, India"
 ---
