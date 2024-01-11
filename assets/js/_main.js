@@ -96,17 +96,18 @@ $(document).ready(function(){
   });
 
 
-document.addEventListener("mousemove", function (event) {
-  var x = event.clientX / window.innerWidth;
-  var y = event.clientY / window.innerHeight;
-  var bg =
-    "radial-gradient(circle at " +
-    x * 100 +
-    "% " +
-    y * 100 +
-    "%, #131414, #636363)";
-  document.body.style.background = bg;
-});
+const blob = document.getElementById("blob");
 
+window.onpointermove = (event) => {
+  const { clientX, clientY } = event;
+
+  blob.animate(
+    {
+      left: `${clientX}px`,
+      top: `${clientY}px`,
+    },
+    { duration: 3000, fill: "forwards" }
+  );
+};
 
 });
