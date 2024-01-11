@@ -95,19 +95,4 @@ $(document).ready(function(){
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
-
-const blob = document.getElementById("blob");
-
-window.onpointermove = (event) => {
-  const { clientX, clientY } = event;
-
-  blob.animate(
-    {
-      left: `${clientX}px`,
-      top: `${clientY}px`,
-    },
-    { duration: 3000, fill: "forwards" }
-  );
-};
-
 });
