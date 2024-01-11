@@ -1,4 +1,15 @@
-<script src="{{ base_path }}/assets/js/main.min.js"></script>
+<script src="{{ base_path }}/assets/js/main.min.js">
+     const blob = document.getElementById("blob");
+
+        window.onpointermove = event => {
+            const { clientX, clientY } = event;
+
+            blob.animate({
+                left: `${clientX}px`,
+                top: `${clientY}px`
+            }, { duration: 3000, fill: "forwards" });
+        }
+</script>>
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
