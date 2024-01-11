@@ -41,6 +41,18 @@ body {
   /* so that it stays on top of all other elements */
 }
 
+main {
+  display: grid;
+  place-items: center;
+  min-width: 100vh;
+  position: relative;
+}
+
+#eyes,
+#eyes img {
+  position: absolute;
+}
+
 .interactive-bg {
   background: linear-gradient(to right, #131414, #636363);
 }

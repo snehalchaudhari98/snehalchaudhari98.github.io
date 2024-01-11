@@ -34,6 +34,16 @@ layout: compress
  
     
     <div class="page__footer">
+      <main>
+        <img id="anchor" src="../images/rm.jpg">
+        <div id="eyes">
+          <img id="e1" class="eye" src="../images/ieye-sm.png" style=" bottom: 7vh;    right: 9vh;">
+          <img id="e2" class="eye" src="../images/ieye-big.png" style=" bottom: 7vh;    right: 19vh;">
+          <img id="e3" class="eye" src="../images/ieye-big.png" style=" left: 9vh;    top: 15vh;">
+          <img id="e4" class="eye" src="../images/ieye-big.png" style=" left: 24vh;    top: 15vh;">
+        </div>
+      </main>
+      
       <footer>
         {% include footer/custom.html %}
         {% include footer.html %}
@@ -90,5 +100,26 @@ layout: compress
 
       animateCircles();
 
+
+
+    document.addEventListener("mousemove", function (e) {
+      let x = e.clientX;
+      let y = e.clientY;
+      let anchor = document.getElementById("anchor");
+      let eyes = document.querySelectorAll(".eye");
+
+      let anchorCoords = anchor.getBoundingClientRect();
+      let anchorX = anchorCoords.left + anchor.width / 3;
+      let anchorY = anchorCoords.top + anchor.height / 3;
+
+      let rad = Math.atan2(anchorY - y, anchorX - x);
+      let rot = (rad * (180 / Math.PI));
+      console.log(rot);
+      eyes.forEach(eye => {
+        eye.style.transform = "rotate(" + (90 + rot) + "deg)";
+        anchor.style.filter = 'hue-rotate(' + rot + 'deg)';
+      });
+    });
+    
   </script>
 </html>
