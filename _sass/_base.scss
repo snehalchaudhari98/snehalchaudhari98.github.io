@@ -41,9 +41,10 @@ body {
   /* so that it stays on top of all other elements */
 }
 
-main {
+.main-bg {
   display: grid;
   place-items: center;
+  /* min-width: 100vh; */
   position: relative;
 }
 
