@@ -44,8 +44,14 @@ body {
 main {
   display: grid;
   place-items: center;
-  min-width: 100vh;
   position: relative;
+}
+
+#anchor{
+      width: 10vw;
+        height: 20vh;
+        margin-left: 90vw;
+        margin-bottom: 80vh;
 }
 
 #eyes,
