@@ -44,12 +44,18 @@ body {
   display: grid;
   place-items: center;
   /* min-width: 100vh; */
-  position: relative;
+  // position: relative;
+
+  position: absolute;
+    /* top: 0; */
+    /* right: 0; */
+    width: 8vw;
+    height: 15vh;
 }
 
 #anchor{
-      width: 10vw;
-        height: 20vh;
+      width: inherit;
+        height: inherit;
         margin-left: 90vw;
         margin-bottom: 80vh;
 }
