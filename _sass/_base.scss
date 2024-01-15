@@ -43,21 +43,20 @@ body {
 .main-bg {
   display: grid;
   place-items: center;
-  /* min-width: 100vh; */
-  // position: relative;
-
   position: absolute;
+  width: 8vw;
+  height: 15vh;
     /* top: 0; */
-    /* right: 0; */
-    width: 8vw;
-    height: 15vh;
+      /* right: 0; */
+      /* min-width: 100vh; */
+        // position: relative;
 }
 
 #anchor{
       width: inherit;
-        height: inherit;
-        margin-left: 90vw;
-        margin-bottom: 80vh;
+      height: inherit;
+      margin-left: 90vw;
+      margin-bottom: 80vh;
 }
 
 #eyes,
