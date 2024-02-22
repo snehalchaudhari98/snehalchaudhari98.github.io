@@ -9,7 +9,7 @@ redirect_from:
 
 
 
-## 🌟 Attentding Grace Hopper Celebration 2023 in Orlando 🌟
+## 🌟 Grace Hopper Celebration 2023 🌟
 
 This year in September, I had the opportunity to attend the [Grace Hopper Celebration](https://ghc.anitab.org/ "AnitaB.org") in Orlando! This conference was filled with exciting possibilities and gave me chance to connect with incredible professionals during this time. Apart from these networking sessions, I am really enjoed engaging in the lineup of sessions, workshops like "From Pixels to Perception" by Haley McKee and 
 Evelyn Song,  "Generative Artificial Intelligence: The Proliferation of Deepfakes" by Priscilla Rumbeiha, etc.
