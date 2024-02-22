@@ -77,11 +77,11 @@ analytics:
   google:
     tracking_id          :
 
-
+# profile.png for  avatar
 # Site Author
 author:
   name             : "Snehal Chaudhari"
-  avatar           : "profile.png"
+  avatar           : "git_profile.jpg"
   bio              : "Computer Science Graduate Student at Arizona State University"
   location         : "Tempe, Arizona"
   employer         :

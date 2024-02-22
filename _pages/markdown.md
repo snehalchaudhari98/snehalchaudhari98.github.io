@@ -7,14 +7,16 @@ redirect_from:
   - /markdown.html
 ---
 
+
+
 ## 🌟 Attentding Grace Hopper Celebration 2023 in Orlando 🌟
 
-I'll be attending the [Grace Hopper Celebration](https://ghc.anitab.org/ "AnitaB.org") in Orlando! 🎉I am looking forward to the exciting possibilities that lie ahead and the chance to connect with incredible professionals during this time. I am really interested in engaging with the incredible lineup of sessions, workshops, and networking opportunities that await.
+This year in September, I had the opportunity to attend the [Grace Hopper Celebration](https://ghc.anitab.org/ "AnitaB.org") in Orlando! This conference was filled with exciting possibilities and gave me chance to connect with incredible professionals during this time. Apart from these networking sessions, I am really enjoed engaging in the lineup of sessions, workshops like "From Pixels to Perception" by Haley McKee and 
+Evelyn Song,  "Generative Artificial Intelligence: The Proliferation of Deepfakes" by Priscilla Rumbeiha, etc.
 
-I'm currently on the lookout for full-time opportunities in the software engineering domain and one of my goals at the conference is to explore new opportunities in the industry, and I'm excited about the possibilities ahead. I am also looking forward to making new connections, sharing experiences, and discovering new career opportunities. If you're interested in connecting, discussing any opportunities, or simply sharing insights about the conference, please feel free to reach out to me at via LinkedIn or [mail](mailto:sschaud5@asu.edu "Email").
+There was an air of excitement and anticipation surrounding me from the moment I entered the venue. Of all the talks and workshops, two that really spoke to me were "Generative Artificial Intelligence: The Proliferation of Deepfakes" by Priscilla Rumbeiha and "From Pixels to Perception" by Haley McKee and Evelyn Song. These talks piqued my interest in the potential directions of technology, in addition to increasing my knowledge. 
 
-If you're attending the conference too, I would like to connect with you to exchange any insights and make the most out of this opportunity.
-“Let's connect, learn, and grow!”
+Reflecting on my GHC 2023 experience, I am filled with gratitude for the connections made and the knowledge gained. I met amazing people with similar career backgrounds and a shared passion for the tech world. I left Orlando being more determined than ever to contribute to this space, armed with new insights and a network of supportive professionals.
 
 
 <!-- ## Locations of key files/directories
