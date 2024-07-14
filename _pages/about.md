@@ -14,7 +14,7 @@ I have a Master of Science in Computer Science from Arizona State University and
 
 I'm also interested about the field of Geospatial Data Analysis and Natural Language Processing. I have worked on various projects to improve my understanding in these areas. Please take a look at my portfolio to explore some of my recent projects, and let's connect to discuss more.
 
-<i><b>I know this was a lot to read (I felt the same writing/reading it). If you're tired of reading all this, just reach out to me on social media to discuss any projects or opportunities. Let's keep it simple and straightforward - no long paragraphs required!</i></b>
+<i><b>I know this was a lot to read (I felt the same writing/revising it💁). If you're tired of reading all this, just reach out to me on social media to discuss any projects or opportunities. Let's keep it simple and straightforward - no long paragraphs required!</b></i>
 
 <!-- My team and I have developed a voice-based payment system for NPCI, taking advantage of the boom in the online payments market with NLP technology. I have also developed a prototype of a deep learning model for generating realistic models to dive deeper into the field of language processing and analysis.  -->
 
