@@ -18,13 +18,13 @@ body {
   line-height: 1.5;
   background-color: #000000;
   color: #ffffff;
-
+  cursor: none;
   // background-color:#ffffff ;
   // color:#000000 ;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
-    overflow: hidden; 
+    overflow: hidden;
   }
 }
 .circle {
@@ -46,17 +46,17 @@ body {
   position: absolute;
   width: 8vw;
   height: 15vh;
-    /* top: 0; */
-      /* right: 0; */
-      /* min-width: 100vh; */
-        // position: relative;
+  /* top: 0; */
+  /* right: 0; */
+  /* min-width: 100vh; */
+  // position: relative;
 }
 
-#anchor{
-      width: inherit;
-      height: inherit;
-      margin-left: 90vw;
-      margin-bottom: 80vh;
+#anchor {
+  width: inherit;
+  height: inherit;
+  margin-left: 90vw;
+  margin-bottom: 80vh;
 }
 
 #eyes,
@@ -68,7 +68,12 @@ body {
   background: linear-gradient(to right, #131414, #636363);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
   font-family: $header-font-family;
@@ -100,7 +105,8 @@ h6 {
   font-size: $type-size-6;
 }
 
-small, .small {
+small,
+.small {
   font-size: $type-size-6;
 }
 
@@ -123,7 +129,15 @@ del a {
 
 /* reduce orphans and widows when printing */
 
-p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
+p,
+pre,
+blockquote,
+ul,
+ol,
+dl,
+figure,
+table,
+fieldset {
   orphans: 3;
   widows: 3;
 }
@@ -171,7 +185,11 @@ a {
 
 /* code */
 
-tt, code, kbd, samp, pre {
+tt,
+code,
+kbd,
+samp,
+pre {
   font-family: $monospace;
 }
 
@@ -192,7 +210,8 @@ td > code {
   border-radius: $border-radius;
   box-shadow: $box-shadow;
 
-  &:before, &:after {
+  &:before,
+  &:after {
     letter-spacing: -0.2em;
     content: "\00a0"; /* non-breaking space*/
   }
@@ -229,9 +248,9 @@ figure {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   -webkit-box-align: start;
-          align-items: flex-start;
+  align-items: flex-start;
   flex-wrap: wrap;
   margin: 2em 0;
 
@@ -296,19 +315,17 @@ figcaption {
 
     &:hover {
       color: #ffffff;
-      
+
       border-bottom-color: #000;
     }
   }
 }
-
 
 /* Fix IE9 SVG bug */
 
 svg:not(:root) {
   overflow: hidden;
 }
-
 
 /*
    Navigation lists
@@ -357,7 +374,28 @@ nav {
    Global animation transition
    ========================================================================== */
 
-b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
+b,
+i,
+strong,
+em,
+blockquote,
+p,
+q,
+span,
+figure,
+img,
+h1,
+h2,
+header,
+input,
+a,
+tr,
+td,
+form button,
+input[type="submit"],
+.btn,
+.highlight,
+.archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }

@@ -3,17 +3,15 @@ title: "Master of Science, Computer Science"
 collection: teaching
 type: "Arizona State University"
 # permalink: /teaching/2014-spring-teaching-1
-venue: "August 2022 -  Expected May 2024 , GPA 4/4"
+venue: "August 2022 -  May 2024 , GPA 4/4"
 date: 2024-05-01
 location: "Tempe, Arizona"
 ---
-Coursework : Data Mining, Data visualization, Knowledge Representation and Reasoning, Cloud Computing, Foundation of Algorithm,  Software Requirements and Specifications.
 
-Heading 1
-======
+Coursework : Data Mining, Data visualization, Knowledge Representation and Reasoning, Cloud Computing, Foundation of Algorithm, Software Requirements and Specifications.
 
-Heading 2
-======
+# Heading 1
 
-Heading 3
-======
+# Heading 2
+
+# Heading 3

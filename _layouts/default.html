@@ -6,18 +6,19 @@ layout: compress
 
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
 
-  <body>
+<head>
+  {% include head.html %}
+  {% include head/custom.html %}
+</head>
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+<body>
 
-   
-{{ content }}
+  {% include browser-upgrade.html %}
+  {% include masthead.html %}
+
+
+  {{ content }}
 
   <div class="circle"></div>
   <div class="circle"></div>
@@ -31,13 +32,14 @@ layout: compress
   <div class="circle"></div>
   <div class="circle"></div>
   <div class="circle"></div>
- 
-    
 
-  
-    <div class="page__footer">      
-      <footer>
-          <!-- <div class="main-bg">
+
+
+
+  <div class="page__footer">
+    <footer>
+      <li><a href="{{ '/react/' | relative_url }}">My React App</a></li>
+      <!-- <div class="main-bg">
             <img id="anchor" src="../images/rm.jpg">
             <div id="eyes">
               <img id="e1" class="eye" src="../images/ieye-sm.png" style=" bottom: 7vh;    right: 9vh;">
@@ -46,81 +48,82 @@ layout: compress
               <img id="e4" class="eye" src="../images/ieye-big.png" style=" left: 24vh;    top: 15vh;">
             </div>
           </div> -->
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
+      {% include footer/custom.html %}
+      {% include footer.html %}
+    </footer>
+  </div>
 
-    {% include scripts.html %}
+  {% include scripts.html %}
 
-  </body>
-  <script type="text/javascript">
-    const coords = { x: 0, y: 0 };
-      const circles = document.querySelectorAll(".circle");
+</body>
+<script type="text/javascript">
+  const coords = { x: 0, y: 0 };
+  const circles = document.querySelectorAll(".circle");
 
-      const colors = [
-       "#6f7382", "#767c8d", "#7e8598",
-        "#858fa3", "#8c98ae", "#93a2ba",
-         "#9aacc5",  "#a0b6d1", "#a7c0dc", 
-         "#adcbe8", "#b4d5f3", "#bae0ff"
-      ];
+  const colors = [
+    "#6f7382", "#767c8d", "#7e8598",
+    "#858fa3", "#8c98ae", "#93a2ba",
+    "#9aacc5", "#a0b6d1", "#a7c0dc",
+    "#adcbe8", "#b4d5f3", "#bae0ff"
+  ];
 
-      circles.forEach(function (circle, index) {
-        circle.x = 0;
-        circle.y = 0;
-        circle.style.backgroundColor = colors[index % colors.length];
-      });
+  circles.forEach(function (circle, index) {
+    circle.x = 0;
+    circle.y = 0;
+    circle.style.backgroundColor = colors[index % colors.length];
+  });
 
-      window.addEventListener("mousemove", function (e) {
-        coords.x = e.clientX;
-        coords.y = e.clientY;
+  window.addEventListener("mousemove", function (e) {
+    coords.x = e.clientX;
+    coords.y = e.clientY;
 
-      });
+  });
 
-      function animateCircles() {
+  function animateCircles() {
 
-        let x = coords.x;
-        let y = coords.y;
+    let x = coords.x;
+    let y = coords.y;
 
-        circles.forEach(function (circle, index) {
-          circle.style.left = x - 12 + "px";
-          circle.style.top = y - 12 + "px";
+    circles.forEach(function (circle, index) {
+      circle.style.left = x - 12 + "px";
+      circle.style.top = y - 12 + "px";
 
-          circle.style.scale = (circles.length - index) / circles.length;
+      circle.style.scale = (circles.length - index) / circles.length;
 
-          circle.x = x;
-          circle.y = y;
+      circle.x = x;
+      circle.y = y;
 
-          const nextCircle = circles[index + 1] || circles[0];
-          x += (nextCircle.x - x) * 0.3;
-          y += (nextCircle.y - y) * 0.3;
-        });
-
-        requestAnimationFrame(animateCircles);
-      }
-
-      animateCircles();
-
-
-
-    document.addEventListener("mousemove", function (e) {
-      let x = e.clientX;
-      let y = e.clientY;
-      let anchor = document.getElementById("anchor");
-      let eyes = document.querySelectorAll(".eye");
-
-      let anchorCoords = anchor.getBoundingClientRect();
-      let anchorX = anchorCoords.left + anchor.width / 3;
-      let anchorY = anchorCoords.top + anchor.height / 3;
-
-      let rad = Math.atan2(anchorY - y, anchorX - x);
-      let rot = (rad * (180 / Math.PI));
-      console.log(rot);
-      eyes.forEach(eye => {
-        eye.style.transform = "rotate(" + (90 + rot) + "deg)";
-        anchor.style.filter = 'hue-rotate(' + rot + 'deg)';
-      });
+      const nextCircle = circles[index + 1] || circles[0];
+      x += (nextCircle.x - x) * 0.3;
+      y += (nextCircle.y - y) * 0.3;
     });
 
-  </script>
+    requestAnimationFrame(animateCircles);
+  }
+
+  animateCircles();
+
+
+
+  document.addEventListener("mousemove", function (e) {
+    let x = e.clientX;
+    let y = e.clientY;
+    let anchor = document.getElementById("anchor");
+    let eyes = document.querySelectorAll(".eye");
+
+    let anchorCoords = anchor.getBoundingClientRect();
+    let anchorX = anchorCoords.left + anchor.width / 3;
+    let anchorY = anchorCoords.top + anchor.height / 3;
+
+    let rad = Math.atan2(anchorY - y, anchorX - x);
+    let rot = (rad * (180 / Math.PI));
+    console.log(rot);
+    eyes.forEach(eye => {
+      eye.style.transform = "rotate(" + (90 + rot) + "deg)";
+      anchor.style.filter = 'hue-rotate(' + rot + 'deg)';
+    });
+  });
+
+</script>
+
 </html>
