@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Global Caomparision</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Custom CSS -->
+  <script src="js/app.js"></script>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <!-- Control panel -->
+  <h3 class="text-center">Note: This assignment/project is part of a academic course and is not intended to be copied or
+  </h3>
+  <hr>
+  <div id="globalDev_div">
+    <div id="controlpanel_div" class="container-fluid control-panel">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-md-3">
+          <h2>Control Panel</h2>
+        </div>
+        <div id="control-panel-part-2" class="form-inline col-md-9 justify-content-between">
+          <div class="widget">
+            <label for="play-button">Play Animation</label>
+            <button id="play-button" type="button" class="btn btn-round">
+              <img src="img/play_button.png" alt="Play Animation">
+            </button>
+          </div>
+
+
+          <div class="widget">
+            <label for="attribute_selection">Select Attribute</label>
+            <select id="attribute_selection" class="form-control"></select>
+          </div>
+          <div class="widget">
+            <label for="opacity-slider">
+              Opacity : <span id="opacity-slider-text"></span>
+            </label>
+            <div id="opacity_range">
+              <input id="opacity-slider" type="range" class="form-control">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="row justify-content-between align-items-center">
+        <div class="col-md-3"></div>
+        <div id="control-panel-part-3" class="form-inline justify-content-around col-md-9">
+          <!-- <div class="form-inline justify-content-around "> -->
+          <div class="widget">
+            <label for="region-dropdown">Select Region</label>
+            <div class="btn-group">
+              <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Choose options
+              </button>
+              <div id="region-dropdown" class="dropdown-menu two-column">
+
+              </div>
+            </div>
+          </div>
+
+          <div class="widget">
+            <label for="start_year">Start Year</label>
+            <select id="start_year" class="form-control "></select>
+          </div>
+
+          <div class="widget">
+            <label for="end_year">End Year</label>
+            <select id="end_year" class="form-control "></select>
+          </div>
+
+          <div class="widget">
+            <label for="toggle">Show Flags</label>
+            <div id="toggle"></div>
+          </div>
+
+          <!-- </div> -->
+        </div>
+      </div>
+
+    </div>
+
+    <!-- SVG tag -->
+    <div class="container-fluid my-5">
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <svg id="gd_svg">
+
+            <!-- add SVG elements here -->
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div id="control-panel-part-3"></div>
+
+
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

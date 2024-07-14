@@ -1,0 +1,146 @@
+ /* Control panel styling */
+ .control-panel {
+    background-color: #283238;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0 0 10px 10px;
+  }
+  .control-panel select, .control-panel input[type="range"] {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+  }
+  .control-panel .dropdown-toggle {
+    background-color: #F9AA33;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+  }
+  .control-panel .btn-round {
+    /* background-color: #F9AA33; */
+    color: #fff;
+    /* border: none; */
+    /* border-radius: 50%; */
+    /* font-size: 1.5rem; */
+    font-weight: bold;
+    padding: 1rem;
+    /* width: 3rem; */
+    /* height: 3rem; */
+  } 
+
+  /* SVG tag styling */
+  svg {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    overflow: visible;
+    width: 2048px;
+              height:1080px;
+              /* float:center; */
+              background-color: white;
+              /* border: 1px solid rgb(9, 4, 4); */
+              border: 1px solid rgb(0, 0, 0, 0.2);
+              border-radius: 3px;
+  }
+
+  .dropdown-menu.two-column {
+            /* column-count: 2; */
+            column-count: 1;
+            column-gap: 1em;
+  }
+
+  .dropdown-header{
+    display: flex; 
+    align-items: center;
+  }
+
+   /* Rounded toggle switch styles - start */
+        .toggle-switch {
+          position: relative;
+          display: inline-block;
+          width: 60px;
+          height: 34px;
+          margin-bottom: 0;
+        }
+
+        .toggle-switch input{
+          opacity: 0;
+          width: 0;
+          height: 0;
+        }
+
+        .slider {
+          position: absolute;
+          cursor: pointer;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: #ccc;
+          -webkit-transition: .4s;
+          transition: .4s;
+          border-radius: 34px;
+        }
+
+        .slider:before {
+          position: absolute;
+          content: "";
+          height: 26px;
+          width: 26px;
+          left: 4px;
+          bottom: 4px;
+          background-color: white;
+          -webkit-transition: .4s;
+          transition: .4s;
+          border-radius: 50%;
+        }
+
+        input:checked + .slider {
+          background-color: #F9AA33;
+        }
+
+        input:focus + .slider {
+          box-shadow: 0 0 1px #F9AA33;
+        }
+
+        input:checked + .slider:before {
+          -webkit-transform: translateX(26px);
+          -ms-transform: translateX(26px);
+          transform: translateX(26px);
+        }
+
+        .slider.round {
+          border-radius: 34px;
+        }
+
+        .slider.round:before {
+          border-radius: 50%;
+        }
+       
+/***************  Rounded toggle switch styles - end***************/
+
+    label{
+          font-size: 1.3rem;
+          font-weight: bold;
+          /* margin-top: 0.5rem; */
+          /* margin-bottom: 0.5rem; */
+          margin-left: 0.5rem ;
+          margin-right: 0.5rem ;
+        }
+
+  .widget{
+    display: flex; 
+    align-items: center;
+  }
+
+  #groupregion-selector label {
+    display: block;
+    text-align: left;
+  }

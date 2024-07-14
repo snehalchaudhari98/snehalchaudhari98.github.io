@@ -1,0 +1,158 @@
+svg {
+    background-color: #fff;
+    border-radius: 10px;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); */
+    overflow: visible;
+    width: 100%;
+    /* width: "100%"; */
+    /* height:1080px; */
+    /* float:center; */
+    /* background-color: rgb(255, 255, 255); */
+    /* border: 1px solid rgb(9, 4, 4); */
+    /* border: 1px solid rgb(0, 0, 0, 0.2); */
+    /* border-radius: 3px; */
+}
+
+.ring_plot {
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  overflow: visible;
+  /* float:center; */
+  /* background-color: rgb(255, 255, 255); */
+  /* border: 1px solid rgb(9, 4, 4); */
+  /* border: 1px solid rgb(0, 0, 0, 0.2); */
+  border-radius: 3px;
+}
+
+/* New Styles */
+
+
+    html {
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+      }
+      
+      body {
+        margin: 0;
+        padding: 0;
+        /* font-family: Arial, sans-serif; */
+        /* font-family: 'Roboto', sans-serif; */
+        /* font-family: 'Poppins', sans-serif; */
+        /* font-family: Verdana, sans-serif, cursive; */
+        font-family: Georgia, serif;
+
+
+        overflow-x: hidden;
+          /* overflow-y: hidden; hides the vertical scrollbar */
+        
+        /* font-family: 'Bangers', cursive;; */
+        background-color: rgb(250, 243, 235);
+      }
+      
+      section {
+        height: 100vh;
+        /* height: '1020px'; */
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: center; */
+        flex-direction: column;
+        scroll-snap-align: start;
+      }
+      
+      .section1 {
+        background-color: #f9f9f9;
+        scroll-margin-top: 1px;
+         background: rgba(255, 255, 255, 0.4) url('../img/a4.jpg');
+         background-size: cover;
+         color: rgb(0, 0, 0);
+        /* adjust the scroll speed */
+        scroll-snap-stop: always;
+        scroll-snap-coordinate: 0% 100%;
+        scroll-snap-destination: 0% 100%;
+        padding: 1rem;
+        text-align: center;
+        height: 100vh;
+      }
+      
+      
+      .section2 {
+       
+        background-color: rgb(255, 255, 255);
+        scroll-margin-top: 1px;
+        /* adjust the scroll speed */
+        scroll-snap-stop: always;
+        scroll-snap-coordinate: 0% 100%;
+        scroll-snap-destination: 0% 100%;
+        /* padding: 1rem 1rem 3rem; */
+        padding: 1rem;
+        height: 100vh;
+      }
+      
+      .section3 {
+        background-color: #f9f9f9;
+        scroll-margin-top: 1px;
+        /* adjust the scroll speed */
+        scroll-snap-stop: always;
+        scroll-snap-coordinate: 0% 100%;
+        scroll-snap-destination: 0% 100%;
+        padding: 1rem;
+        height: 100vh;
+      }
+
+      .section4 {
+        margin-top: '20px';
+        background-color: #f9f9f9;
+        scroll-margin-top: 1px;
+        /* adjust the scroll speed */
+        scroll-snap-stop: always;
+        scroll-snap-coordinate: 0% 100%;
+        scroll-snap-destination: 0% 100%;
+        padding: 1rem;
+        height: 100vh;
+      }
+
+      h1 {
+        /* font-size: 3rem; */
+        margin-bottom: 2rem;
+      }
+      
+      p {
+        /* font-size: 1.5rem; */
+        line-height: 1.5;
+      }
+
+      /* section#section2 svg {
+        height: 100%;
+        width: auto;
+      } */
+      
+
+      .row {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* .section2 svg, .section3 svg {
+        height: 100%;
+      } */
+
+      #bubble_chart, #dataplot_div , #svg_col1 , #ringplot_div , #svg_col2 , #ring_plot, #ringplot_div{
+        height: 100%;
+      }
+
+#control-panel-2 , #control-panel-1{
+  overflow: auto;
+  height: 94%; /* set a fixed height for the parent div */
+}
+
+
+#control-panel-2 p , #control-panel-1 p{
+  height: 100%; /* set the height of the <p> element to 50% of the parent div */
+  font-size: 0.8rem;
+}
+
+.select {
+  height: 1%;
+}
