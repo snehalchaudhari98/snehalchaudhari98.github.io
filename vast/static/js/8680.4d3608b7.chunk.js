@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkvast=self.webpackChunkvast||[]).push([[8680],{8680:function(s,c,e){s.exports=e.p+"static/media/pm81.f3150c3e5f57f82b44cc.csv"}}]);

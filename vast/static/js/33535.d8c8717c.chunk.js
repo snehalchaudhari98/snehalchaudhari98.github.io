@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkvast=self.webpackChunkvast||[]).push([[33535],{33535:function(s,a,t){s.exports=t.p+"static/media/pm24.f0006f0b1f521ac691a0.csv"}}]);
