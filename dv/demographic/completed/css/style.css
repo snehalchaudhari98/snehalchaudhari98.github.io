@@ -1,0 +1,52 @@
+svg {
+    width: 600px;
+    height: 450px;
+    /* border: 1px solid rgb(10, 9, 9); */
+    overflow: visible;
+}
+
+.myContainer {
+    margin: auto;
+    width: 1210px;
+}
+
+#bar_plot {
+    float: left;
+    /* border: 1px solid rgb(10, 9, 9); */
+    width: 500px;
+}
+
+p{
+flex: 4;
+text-align: center;
+margin-left: 25%;
+    margin-right: 5%;
+   
+    /* margin-left: 20%;
+        margin-right: 20%; */
+}
+
+#show_all {
+    flex:1 ;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid #010101;
+        border-radius: 5px;
+/*       
+        background-color: #6e9af4;
+            color: white; */
+
+       
+}
+
+#circular_bar_plot {
+    float: right;
+    width: 700px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+        align-items: center;
+}
+
